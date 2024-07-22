@@ -30,4 +30,5 @@ export default defineNuxtConfig({
   pinia: {
     storesDirs: ['~/stores/**', '#/stores/**', '@/stores/**'],
   },
+  compatibilityDate: '2024-07-22',
 })
